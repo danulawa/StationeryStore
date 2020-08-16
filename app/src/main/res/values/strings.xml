@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MADproject</string>
+    <string name="stationery_touch">Stationery Touch</string>
+    <string name="supplier_profile">SUPPLIER PROFILE</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="category">Category</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="description">Description</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="publish_and_preview">PUBLISH AND PREVIEW</string>
+    <string name="reset">RESET</string>
+    <string name="supplier_dashboard">SUPPLIER DASHBOARD</string>
+    <string name="colour_pencil_pack">Colour Pencil Pack</string>
+    <string name="rs_180_00">Rs. 180.00</string>
+    <string name="flower_buds_pvt_ltd">Flower Buds (Pvt) Ltd.</string>
+    <string name="view_table">VIEW TABLE</string>
+    <string name="supplier_id">Supplier ID</string>
+    <string name="product">Product</string>
+    <string name="action">Action</string>
+    <string name="s1003">S1003</string>
+    <string name="notebook" />
+    <string name="scissor_pack">Scissor Pack</string>
+</resources>
