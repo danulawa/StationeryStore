@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Stationery Touch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+        android:text="Stationery Touch"
+        android:textColor="#046056"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/cart"
+        app:layout_constraintBottom_toBottomOf="@+id/Stationery Touch"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/Stationery Touch"
+        app:srcCompat="@drawable/ic_baseline_shopping_cart_24" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:srcCompat="@drawable/ic_baseline_settings_24" />
+
+    <TextView
+        android:id="@+id/back1"
+        android:layout_width="379dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="69dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="@+id/back1"
+        app:layout_constraintEnd_toEndOf="@+id/back1"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="@+id/back1"
+        app:layout_constraintTop_toTopOf="@+id/back1"
+        app:srcCompat="@drawable/note6" />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/NBdesc"
+        android:textColor="#020202"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/back1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/back1"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <TextView
+        android:id="@+id/desc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans"
+        android:text="Delivery 24th October"
+        app:layout_constraintBottom_toBottomOf="@+id/back1"
+        app:layout_constraintEnd_toEndOf="@+id/back1"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc1"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <Button
+        android:id="@+id/qty1"
+        android:layout_width="51dp"
+        android:layout_height="92dp"
+        android:drawableTop="@drawable/ic_baseline_remove_circle_24"
+        android:drawableBottom="@drawable/ic_baseline_add_circle_24"
+        android:text="@string/Qty1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/back1"
+        app:layout_constraintEnd_toEndOf="@+id/back1"
+        app:layout_constraintHorizontal_bias="0.856"
+        app:layout_constraintStart_toStartOf="@+id/back1"
+        app:layout_constraintTop_toTopOf="@+id/back1"
+        app:layout_constraintVertical_bias="0.583" />
+
+    <TextView
+        android:id="@+id/price1"
+        android:layout_width="97dp"
+        android:layout_height="24dp"
+        android:text="@string/price1"
+        android:textColor="#100F0F"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/back1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc2" />
+
+    <ImageView
+        android:id="@+id/delete1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/back1"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+    <TextView
+        android:id="@+id/back2"
+        android:layout_width="381dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/back1"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <ImageView
+        android:id="@+id/style4"
+        android:layout_width="120dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/back2"
+        app:layout_constraintEnd_toEndOf="@+id/back2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/back2"
+        app:srcCompat="@drawable/pencilcase" />
+
+    <TextView
+        android:id="@+id/noteQty"
+        android:layout_width="138dp"
+        android:layout_height="41dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/PCdesc"
+        android:textColor="#090909"
+        app:layout_constraintBottom_toBottomOf="@+id/back2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/back2"
+        app:layout_constraintVertical_bias="0.138" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Delivery 24th October"
+        app:layout_constraintBottom_toBottomOf="@+id/back2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/qty2"
+        android:layout_width="46dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="35dp"
+        android:drawableTop="@drawable/ic_baseline_remove_circle_24"
+        android:drawableBottom="@drawable/ic_baseline_add_circle_24"
+        android:text="@string/Qty2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/back2"
+        app:layout_constraintEnd_toEndOf="@+id/back2"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="@+id/back2"
+        app:layout_constraintTop_toBottomOf="@+id/qty1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/price2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginRight="164dp"
+        android:text="@string/price2"
+        android:textColor="#040303"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/price1" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/delete1"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+    <TextView
+        android:id="@+id/pencilcase_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/subTotal"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back2" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/Delivery"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pencilcase_qty" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/open_sans"
+        android:text="@string/Discount"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Total"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/subtotamt"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pencilcase_qty" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/deliveryamt"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/Discamt"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="@string/totamt"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toTopOf="@+id/textView18" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/button"
+        android:text="Proceed"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

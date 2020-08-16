@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Online Stationery Store</string>
+    <string name="cart">cartIcon</string>
+    <string name="appname">Stationery Touch</string>
+    <string name="subTotal">SubTotal</string>
+    <string name="Delivery">Delivery</string>
+    <string name="Total">Total</string>
+    <string name="Discount">Discount</string>
+    <string name="Qty">Qty</string>
+    <string name="uprice">Unit Price</string>
+    <string name="price">Price</string>
+    <string name="Qty1">2</string>
+    <string name="Qty2">4</string>
+    <string name="NBdesc">Life brand Notebook</string>
+    <string name="PCdesc">Flower Designed pencil case</string>
+    <string name="DiscDesc">offer valid only till stock finishes</string>
+    <string name="subtotamt">Rs 900.00</string>
+    <string name="deliveryamt">Rs 100.00</string>
+    <string name="Discamt">Rs   00.00</string>
+    <string name="totamt">Rs 1000.00</string>
+    <string name="price1">RS 500.00</string>
+    <string name="price2">RS 400.00</string>
+</resources>
