@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Online Stationery Store</string>
+    <string name="stationery_touch">Stationery Touch</string>
+    <string name="proceed_next">Proceed Next</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="confirm_details">Confirm Details</string>
+    <string name="com_bank_account">Com Bank Account</string>
+    <string name="paypal_account">PayPal Account</string>
+    <string name="sampath_bank_account">Sampath Bank Account</string>
+    <string name="do_your_payment">Do Your Payment</string>
+    <string name="edit_delivery_details">Edit Delivery Details</string>
+    <string name="back">Back</string>
+    <string name="add_new_payment_method">Add New Payment Method</string>
+    <string name="one_time_payment">One Time Payment</string>
+    <string name="one_time_discount_payment">One Time Discount Payment</string>
+    <string name="add_as_recurring_payment">Add as Recurring Payment</string>
+    <string name="cash_on_delivery">Cash on Delivery</string>
+    <string name="credit_debit_card">Credit/ Debit Card</string>
+    <string name="in_app_payment">In App Payment</string>
+</resources>
