@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Online Stationery Store</string>
+    <string name="appName">Stationery Touch</string>
+    <string name="Proceed_with">Proceed with your</string>
+    <string name="Login">Login</string>
+    <string name="signup_here">Don\'t have a account? Sign up here</string>
+    <string name="Start_shoping">Start shoping</string>
+    <string name="Wish_list">Wish list  ❤</string>
+    <string name="Orders">Orders</string>
+    <string name="Log_Out">Log Out</string>
+    <string name="atlasBook">Atlas Excercise Book single rule</string>
+    <string name="stapler">Stapler Machine MA-45</string>
+    <string name="colorPencil">Color Pencil</string>
+    <string name="mathematcalBox">Mathematcal Box</string>
+    <string name="Editdetails">Edit your details</string>
+    <string name="Save">Save</string>
+    <string name="forgetPassword">Forget password?</string>
+    <string name="paymentHistory">View payment history</string>
+    <string name="payentMethod">View payent method</string>
+
+
+</resources>
